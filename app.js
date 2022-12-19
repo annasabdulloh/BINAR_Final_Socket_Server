@@ -18,11 +18,11 @@ app.use(cors());
 app.get("/set-notify/:id", ctrl.setNotify);
 
 io.on("connection", (socket) => {
-  console.log(socket)
+  console.log(socket.id, "=================================== Masuk koneksi baru ============================")
   socket.on("newUser", (userId) => {
     ctrl.addNewUser(userId, socket.id);
     ctrl.setFirstNotify(userId, socket.id)
-    console.log(socket, userId)
+    console.log(socket.id, userId, "===================== Ini Masuk emit awal awal ======================= ")
   });
 
 
