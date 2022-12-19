@@ -58,6 +58,7 @@ module.exports = {
             let notifications = await getNOtify(userId)
             for (let i = 0; i < notifications.length; i++) {
                 global.io.to(socketId).emit("notify", notifications[i].notification)
+                console.log(notifications[i].notification)
             }
         } catch (error) {
             console.log(error);
