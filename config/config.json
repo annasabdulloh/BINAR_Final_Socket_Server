@@ -1,28 +1,28 @@
 {
   "development": {
     "username": "postgres",
-    "password": "y3TGztHO7zO7X9e7RszE",
+    "password": "RcTewST9eHwrZAAUFIms",
     "database": "railway",
-    "host": "containers-us-west-132.railway.app",
-    "port": "7389",
+    "host": "containers-us-west-179.railway.app",
+    "port": "5922",
     "dialect": "postgres",
     "timezone": "+07:00"
   },
   "test": {
     "username": "postgres",
-    "password": "y3TGztHO7zO7X9e7RszE",
+    "password": "RcTewST9eHwrZAAUFIms",
     "database": "railway",
-    "host": "containers-us-west-132.railway.app",
-    "port": "7389",
+    "host": "containers-us-west-179.railway.app",
+    "port": "5922",
     "dialect": "postgres",
     "timezone": "+07:00"
   },
   "production": {
     "username": "postgres",
-    "password": "y3TGztHO7zO7X9e7RszE",
+    "password": "RcTewST9eHwrZAAUFIms",
     "database": "railway",
-    "host": "containers-us-west-132.railway.app",
-    "port": "7389",
+    "host": "containers-us-west-179.railway.app",
+    "port": "5922",
     "dialect": "postgres",
     "timezone": "+07:00"
   }
